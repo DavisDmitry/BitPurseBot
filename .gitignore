@@ -2,6 +2,7 @@
 node_modules
 /build
 /package
+!.yarnrc.yml
 !.env.example
 !.eslintignore
 !.eslintrc.cjs
