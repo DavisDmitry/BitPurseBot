@@ -29,6 +29,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudflare/workers-types@npm:^4.20230404.0":
+  version: 4.20231002.0
+  resolution: "@cloudflare/workers-types@npm:4.20231002.0"
+  checksum: 066f4ef24286948de0165be9b22b842867330fcbaba520a60bae01a1ce85617364829fe50be7480f12a3fe4dc41463a9a53a8722b473493c61e0fc57dd7b21e9
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm64@npm:0.18.20":
   version: 0.18.20
   resolution: "@esbuild/android-arm64@npm:0.18.20"
@@ -396,6 +403,19 @@ __metadata:
   peerDependencies:
     "@sveltejs/kit": ^1.0.0
   checksum: 7f74086a140a1f3c5c70f17d60b89572f3df4b7df39d8a10d0db31e00a656cbfdd9b6f9b894232714b4b6f7a7644da7c3cd987621f9d823653a9901bfdf0c475
+  languageName: node
+  linkType: hard
+
+"@sveltejs/adapter-cloudflare@npm:^2.3.3":
+  version: 2.3.3
+  resolution: "@sveltejs/adapter-cloudflare@npm:2.3.3"
+  dependencies:
+    "@cloudflare/workers-types": ^4.20230404.0
+    esbuild: ^0.18.11
+    worktop: 0.8.0-next.15
+  peerDependencies:
+    "@sveltejs/kit": ^1.0.0
+  checksum: 93809ac952ae89c727fb24a8304e1185794e6cfccb39f19d9460ba90a76c5fe792c4aad34271a03ba3c6aad48c4762e3e4e8b8a49017103c958192c21556ab48
   languageName: node
   linkType: hard
 
@@ -907,6 +927,7 @@ __metadata:
     "@material/material-color-utilities": ^0.2.7
     "@nuintun/qrcode": ^3.4.0
     "@sveltejs/adapter-auto": ^2.0.0
+    "@sveltejs/adapter-cloudflare": ^2.3.3
     "@sveltejs/kit": ^1.20.4
     "@sveltestack/svelte-query": ^1.6.0
     "@tma.js/init-data-node": ^0.0.16
@@ -1340,7 +1361,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.18.10":
+"esbuild@npm:^0.18.10, esbuild@npm:^0.18.11":
   version: 0.18.20
   resolution: "esbuild@npm:0.18.20"
   dependencies:
@@ -3026,6 +3047,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regexparam@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "regexparam@npm:2.0.1"
+  checksum: 797998e96c995c200ebd4a7d5e734381b96d3979b4b6672ec65ed5ca9210b8a5149ad73109ec32115779674b526088704c2564e9fa07f8b747743beadc424803
+  languageName: node
+  linkType: hard
+
 "require-directory@npm:^2.1.1":
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
@@ -3832,6 +3860,16 @@ __metadata:
   dependencies:
     string-width: ^1.0.2 || 2 || 3 || 4
   checksum: d5fc37cd561f9daee3c80e03b92ed3e84d80dde3365a8767263d03dacfc8fa06b065ffe1df00d8c2a09f731482fcacae745abfbb478d4af36d0a891fad4834d3
+  languageName: node
+  linkType: hard
+
+"worktop@npm:0.8.0-next.15":
+  version: 0.8.0-next.15
+  resolution: "worktop@npm:0.8.0-next.15"
+  dependencies:
+    mrmime: ^1.0.0
+    regexparam: ^2.0.0
+  checksum: 5caf7664069b5b1511b89b36a46bc2f56269b80da9b7c9d57f3f6ae22745122212dfb30485de46fe5ce7777fd42e87ae76f27f701868902e84d160cf2f673e58
   languageName: node
   linkType: hard
 

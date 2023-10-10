@@ -18,6 +18,7 @@
     "@material/material-color-utilities": "^0.2.7",
     "@nuintun/qrcode": "^3.4.0",
     "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-cloudflare": "^2.3.3",
     "@sveltejs/kit": "^1.20.4",
     "@sveltestack/svelte-query": "^1.6.0",
     "@tma.js/init-data-node": "^0.0.16",
