@@ -488,48 +488,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tma.js/colors@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@tma.js/colors@npm:0.0.5"
-  checksum: c5ec3d312d144daaf35b49946c0fcaa15e2d89c1f0a2e6925351e746b6dd316a9f75664030b97d139f6ccb26adc5f1ea44f96973c05934b36418b527a4088044
-  languageName: node
-  linkType: hard
-
-"@tma.js/init-data-node@npm:^0.0.16":
-  version: 0.0.16
-  resolution: "@tma.js/init-data-node@npm:0.0.16"
-  dependencies:
-    "@tma.js/init-data": 0.2.18
-  checksum: 4dac0ca85825fd2b1704a47f98548aa89becc11ba4ce478b68bd7d1b771f4337e2f51e39080591de9eafbe9c02a8fbb2ae2283b98adf76bf8b9ca58978de64f1
-  languageName: node
-  linkType: hard
-
-"@tma.js/init-data@npm:0.2.18":
-  version: 0.2.18
-  resolution: "@tma.js/init-data@npm:0.2.18"
-  dependencies:
-    "@tma.js/parsing": 0.1.2
-  checksum: 07819bcbde508f91e83d36304a079d3d0a4d6c1b1b3f7bd4e2f9232305d2ba292fe0b2d43c6b8886a47de984be6ebbf69204ca6952079f3214feafa91570acce
-  languageName: node
-  linkType: hard
-
-"@tma.js/parsing@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@tma.js/parsing@npm:0.1.2"
-  dependencies:
-    "@tma.js/colors": 0.0.5
-    "@tma.js/util-types": 0.0.3
-  checksum: 6253481950132a093f80a1bfaf19d2e037787c2e1478dc612550e6bd11420f02fa11e98d36e59a0a8e81ce727c5da37eb32f0cd1ce9dce9b8af322e65100fcfb
-  languageName: node
-  linkType: hard
-
-"@tma.js/util-types@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@tma.js/util-types@npm:0.0.3"
-  checksum: 9c43a66c7e157d29bca447bb11c3c6ce96d57c2bde691d3adf0408ec240f97e0b07a504e4862df8fb36126a642996ea9b40931f9d7dfbfd294e200a8cc7117f6
-  languageName: node
-  linkType: hard
-
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -930,7 +888,6 @@ __metadata:
     "@sveltejs/adapter-cloudflare": ^2.3.3
     "@sveltejs/kit": ^1.20.4
     "@sveltestack/svelte-query": ^1.6.0
-    "@tma.js/init-data-node": ^0.0.16
     "@typescript-eslint/eslint-plugin": ^6.0.0
     "@typescript-eslint/parser": ^6.0.0
     autoprefixer: ^10.4.16
