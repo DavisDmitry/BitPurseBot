@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  @apply bg-background text-on-background;
+}
+
+@layer utilities {
+  .text-display-large {
+    line-height: 4rem;
+    font-size: 3.563rem;
+    letter-spacing: -0.016rem;
+    font-weight: 400;
+  }
+
+  .text-display-medium {
+    line-height: 3.25rem;
+    font-size: 2.813rem;
+    font-weight: 400;
+  }
+
+  .text-display-small {
+    line-height: 2.75rem;
+    font-size: 2.25rem;
+    font-weight: 400;
+  }
+
+  .text-headline-large {
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .text-headline-medium {
+    line-height: 2.25rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+
+  .text-headline-small {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .text-title-large {
+    line-height: 1.75rem;
+    font-size: 1.375rem;
+    font-weight: 400;
+  }
+
+  .text-title-medium {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.009rem;
+    font-weight: 500;
+  }
+
+  .text-title-small {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.006rem;
+    font-weight: 500;
+  }
+
+  .text-label-large {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.006rem;
+    font-weight: 500;
+  }
+
+  .text-label-medium {
+    line-height: 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    font-weight: 500;
+  }
+
+  .text-label-small {
+    line-height: 1rem;
+    font-size: 0.688rem;
+    letter-spacing: 0.031rem;
+    font-weight: 500;
+  }
+
+  .text-body-large {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.031rem;
+    font-weight: 400;
+  }
+
+  .text-body-medium {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.016rem;
+    font-weight: 400;
+  }
+
+  .text-body-small {
+    line-height: 1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.025rem;
+    font-weight: 400;
+  }
+}

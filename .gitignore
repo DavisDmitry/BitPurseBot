@@ -1,0 +1,14 @@
+.*
+node_modules
+/build
+/package
+!.env.example
+!.eslintignore
+!.eslintrc.cjs
+!.gitignore
+!.prettierignore
+!.prettierrc
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+pocketbase
+pb_data
